@@ -7,9 +7,9 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route('/api/routes')
+@app.route('/api/posts')
 def get_posts():
-    with open('posts.json', 'r') as file:
+    with open('data.json', 'r') as file:
         posts = json.load(file)
     return jsonify(posts)
 
