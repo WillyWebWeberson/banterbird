@@ -3,7 +3,7 @@
 body {
     font-family: sans-serif;
     color: white;
-    background-color: #00173b;
+    background-color: #010c1e;
     padding: 20px;
 }
 
@@ -14,7 +14,7 @@ body {
 
 textarea {
     background-color: #1e1e1e;
-    color: #fff;
+    color: #3aaef4;
     border: 1px solid #333;
     border-radius: 8px;
     padding: 12px 16px;
@@ -59,6 +59,7 @@ button {
     transform: translate(-50%, -50%);
   }
   img {
-    height: 250px;
-    width: 350px; 
+    height: 150px;
+    width: 150px; 
+    padding-top: 50px
   }

@@ -7,10 +7,10 @@
 </head>
 <body>
     <div class = centered>
-    <img src= "https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-c2c0-61f7-b168-b149bd358720/raw?se=2025-04-25T16%3A00%3A45Z&sp=r&sv=2024-08-04&sr=b&scid=8dd3c342-8118-5578-8bdf-91653477c74e&skoid=0abefe37-d2bd-4fcb-bc88-32bccbef6f7d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-25T05%3A08%3A26Z&ske=2025-04-26T05%3A08%3A26Z&sks=b&skv=2024-08-04&sig=arYECxiCUEWPXL4jXqmEL5VVJT9I6hfjYkXISMK3n6U%3D" alt="BanterBird Logo"></img>
+    <img src= "/static/banter_bird.png">
     </div>
     <div>
-        Logged in as: <strong id="username">admin</strong>
+        Logged in as: <strong id="username">Guest</strong>
     </div>
     <div>
         <h3>New Post</h3>
@@ -28,5 +28,8 @@
             <hr>
         </div>
     </template>
+    <script>
+        document.getElementById("username").innerText = localStorage.getItem('username');
+    </script>
 </body>
 </html>
